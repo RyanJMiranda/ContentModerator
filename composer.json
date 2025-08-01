@@ -1,0 +1,26 @@
+{
+    "name": "ryanjmiranda/content-moderator",
+    "description": "A simple content moderation package for PHP Applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ryanjmiranda\\ContentModerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan Miranda",
+            "email": "ryanjmiranda95@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.2"
+    }
+}
